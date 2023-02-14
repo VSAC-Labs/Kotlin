@@ -9,7 +9,7 @@ then
 fi
 
 echo "App Center Login"
-appcenter login --token --token $AppCenterTokenForTest
+appcenter login --token $AppCenterTokenForTest
 
 echo "Zip Build"
 echo "Zip Build what they heck"
