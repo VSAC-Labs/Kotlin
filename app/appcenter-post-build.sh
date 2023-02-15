@@ -26,7 +26,7 @@ ReleaseNotes="'Manuel App Center Distribution'"
 Group="'TestGroup1'"
 BuildNumber=$BUILD_BUILDNUMBER
 BuildVersion="'1.0.0.0'"
-AppSlug="'VSAC-Labs/Kotlin'"
+AppSlug="'VSAC-Labs\Kotlin'"
 
 echo "Path2APK"
 echo $Path2APK
