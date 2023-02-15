@@ -43,7 +43,7 @@ echo $AppSlug
 
 echo "App Center Distribution START"
 
-appcenter distribute release -f "$Path2APK" -r "$ReleaseNotes" -g "$Group" -n "$BuildNumber" -b "$BuildVersion" -a "$AppSlug" --debug
+appcenter distribute release -f $Path2APK -r $ReleaseNotes -g $Group -n $BuildNumber -b $BuildVersion -a VSAC-Labs/Kotlin --debug
 
 
 echo "App Center Distribution END"
