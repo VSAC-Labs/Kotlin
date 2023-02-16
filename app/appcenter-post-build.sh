@@ -23,6 +23,6 @@ fi
 
 echo "App Center Distribution START"
 
-appcenter distribute release -f "$Path2APK" -r "Manuel App Center Distribution" -g "TestGroup1" -n $BUILD_BUILDNUMBER -b "1.0.0.0" -a "VSAC-Labs/Kotlin" --debug
+appcenter distribute release -f "$Path2APK" -r "Manuel App Center Distribution" -g "TestGroup1" -n 1 -b "1.0.0.0" -a "VSAC-Labs/Kotlin" --debug
 
 echo "App Center Distribution END"
