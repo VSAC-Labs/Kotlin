@@ -8,7 +8,6 @@ fi
 
 echo "App Center Version"
 appcenter -v
-appcenter -v
 
 echo "App Center Login"
 appcenter login --token $AppCenterTokenForTest
